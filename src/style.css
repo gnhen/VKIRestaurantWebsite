@@ -165,3 +165,78 @@ footer {
     margin-top: 2rem;
     font-size: 0.9rem;
 }
+
+.menu-page h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 1rem;
+}
+
+.menu-category {
+    margin-bottom: 3rem;
+}
+
+.menu-category-title {
+    font-size: 2rem;
+    color: var(--primary-color);
+    border-bottom: 1px solid #555;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.menu-category-subtitle {
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+.menu-grid-drinks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1.5rem;
+}
+
+.menu-item {
+    background-color: var(--medium-bg);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.menu-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px dotted var(--primary-color);
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.menu-item-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.menu-item-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    white-space: nowrap;
+    padding-left: 10px;
+}
+
+.menu-item-description {
+    font-size: 0.9rem;
+    color: #ccc;
+    margin-top: 0.5rem;
+}
