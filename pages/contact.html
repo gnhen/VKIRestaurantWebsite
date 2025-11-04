@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - VKI Japanese Steakhouse</title>
+    <link rel="stylesheet" href="../src/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="../src/images/vki-updated-tr-bg.png" alt="VKI Japanese Steakhouse Logo">
+                <a href="../index.html">VKI Japanese Steakhouse</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="direction.html">Direction</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 class="page-title">Contact Us</h1>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>We welcome any suggestions you may have!</p>
+                    <p>Please use the form to send us a message, or feel free to call us.</p>
+                    <p><strong>Phone:</strong> 352-259-9887</p>
+                    <p><strong>Address:</strong> 1004 OLD MILL RUN, THE VILLAGES, FL 32162</p>
+                </div>
+
+                <form class="contact-form" onsubmit="return false;">
+                    <div class="form-group">
+                        <label for="name">Name <span class="required">*</span></label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number <span class="required">*</span></label>
+                        <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="company">Company</label>
+                        <input type="text" id="company" name="company" placeholder="Your Company (Optional)">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" name="address" placeholder="Your Address (Optional)">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Tell us about your experience or ask us a question..."></textarea>
+                    </div>
+
+                    <button type="submit" class="cta-button" onclick="window.location.reload();">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 VKI Japanese Steakhouse, Inc. All Rights Reserved.</p>
+            <p>1004 OLD MILL RUN, THE VILLAGES, FL 32162 | TEL: 352-259-9887</p>
+        </div>
+    </footer>
+</body>
+</html>
